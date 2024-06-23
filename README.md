@@ -1,1 +1,1 @@
-You can check out my pportfolio website [here🚀](https://jemish-khunt.netlify.app/).
+You can check out my portfolio website [here🚀](https://jemish-khunt.netlify.app/).
