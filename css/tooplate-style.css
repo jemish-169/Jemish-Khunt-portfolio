@@ -12,7 +12,6 @@ body {
   color: #5b5b5b;
   font-size: 14px;
   font-weight: bold;
-  padding: 8px 16px;
   border-radius: 50px;
   letter-spacing: 0.2px;
 }
@@ -108,7 +107,7 @@ strong {
   display: inline-block;
   vertical-align: top;
   margin-top: 5px;
-  min-width: 260px;
+  min-width: 350px;
   position: relative;
 }
 
@@ -365,7 +364,6 @@ strong {
   font-weight: bold;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 15px;
 }
 
 .owl-carousel .owl-nav span {
@@ -523,7 +521,7 @@ strong {
 }
 @media (max-width: 580px) {
   .animated-info {
-    min-width: 200px;
+    min-width: 350px;
   }
   .animated-item {
     font-size: 30px;
@@ -572,4 +570,52 @@ strong {
     display: inline-block;
     vertical-align: top;
   }
+}
+
+.content-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 85%;
+  padding: 60px 0;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  color: #1f1f1f;
+  display: inline-block;
+}
+.contact-list a :hover {
+  color: #ffc200;
+}
+@media screen and (max-width: 749px) {
+  .contact-list a {
+    padding: 5px;
+  }
+}
+@media screen and (min-width: 750px) {
+  footer {
+    text-align: center;
+  }
+  .contact-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.item {
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.project-info a {
+  color: #0c0c0d;
+}
+.project-info img {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
 }
