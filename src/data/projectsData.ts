@@ -20,7 +20,7 @@ export const featuredProjects: Project[] = [
       "Used Supabase RPC functions to handle concurrent transactions. Ensured real-time data consistency and smooth multi-user interactions."
     ],
     techStack: ["Android", "Kotlin", "Supabase", "Jetpack compose", "Coroutines", "Hilt", "MVVM", "Clean Architecture", "Animations", "Material UI"],
-    image: "/placeholder.svg",
+    image: "public/stocky_icon.png",
     links: { github: "https://github.com/jemish-169/Stocky-Inventory-Management-POS/" }
   },
   {
@@ -31,7 +31,7 @@ export const featuredProjects: Project[] = [
       "Implemented efficient file management features, including custom categories and dynamic file organization, using Coroutines for smooth, non-blocking operations."
     ],
     techStack: ["Android", "Kotlin", "Jetpack compose", "Coroutines", "MVVM", "ML-kit", "Material UI", "File Management"],
-    image: "/placeholder.svg",
+    image: "public/pro-scanner_icon.png",
     links: { playstore: "https://play.google.com/store/apps/details?id=com.elite.scanner", github: "https://github.com/jemish-169/Pro-Scanner" }
   },
   {
@@ -42,7 +42,7 @@ export const featuredProjects: Project[] = [
       "Created visually appealing themes to enhance the aesthetic appeal and provide a delightful user experience."
     ],
     techStack: ["Android", "Kotlin", "XML", "MVP", "Navigation Library", "Material UI", "Shared preferences"],
-    image: "/placeholder.svg",
+    image: "public/2048_icon.png",
     links: { playstore: "https://play.google.com/store/apps/details?id=com.app.slidesum", github: "https://github.com/jemish-169/2048" }
   },
   {
@@ -52,7 +52,7 @@ export const featuredProjects: Project[] = [
       "Distinguished app with audio feature utilizing Media Player and Google Text-to-Speech also ensured seamless user experience by handling edge cases and implementing dark and light mode themes."
     ],
     techStack: ["Android", "Kotlin", "XML", "MVVM", "Retrofit", "LiveData", "Animation"],
-    image: "/placeholder.svg",
+    image: "public/gita_icon.png",
     links: { playstore: "https://play.google.com/store/apps/details?id=com.practice.gita", github: "https://github.com/jemish-169/Bhagavad-Gita" }
   },
   {
@@ -63,7 +63,7 @@ export const featuredProjects: Project[] = [
       "Followed modular architecture using Activities, Fragments, and Firebase integration; ensured responsive UI with Material Design and latest Android APIs."
     ],
     techStack: ["Android", "Kotlin", "XML", "Firebase", "Modular Architecture", "Coroutines", "Material Design"],
-    image: "/placeholder.svg",
+    image: "public/trello_icon.png",
     links: { github: "https://github.com/jemish-169/Trello-Project-Management-App" }
   },
   {
@@ -76,7 +76,7 @@ export const featuredProjects: Project[] = [
       "Developed automated email notifications flow to notify users and admin whenever a ticket is created or updated."
     ],
     techStack: ["Power Platform", "SharePoint", "Canvas app", "Power automate", "Connectors"],
-    image: "/placeholder.svg",
+    image: "public/helpdesk_icon.png",
     links: { demo: "https://www.github.com/jemish-169/HelpDesk/" }
   },
   {
@@ -88,7 +88,7 @@ export const featuredProjects: Project[] = [
       "Implemented REST APIs in Android using Retrofit."
     ],
     techStack: ["Android", "Kotlin", "XML", "MVVM", "Retrofit", "Dagger Hilt"],
-    image: "/placeholder.svg",
+    image: "public/buzztalk_icon.png",
     links: { github: "https://github.com/jemish-169/BuzzTalk/" }
   },
   {
@@ -99,7 +99,7 @@ export const featuredProjects: Project[] = [
       "Maintained clean architecture, Professional UI design. App saves the edited photo in local storage."
     ],
     techStack: ["Android", "Kotlin", "XML", "JSON Animation", "DS photo SDK"],
-    image: "/placeholder.svg",
+    image: "public/brighter_icon.png",
     links: { playstore: "https://play.google.com/store/apps/details?id=com.tanxe.brighter", github: "https://github.com/jemish-169/Brighter" }
   },
 ];

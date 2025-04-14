@@ -28,7 +28,7 @@ const Projects = () => {
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="h-32 w-auto object-contain"
+                  className="h-16 w-auto object-contain"
                 />
               </div>
               

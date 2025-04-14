@@ -4,20 +4,20 @@ import { Code, Database, Smartphone, Rocket } from 'lucide-react';
 const About = () => {
   const skills = [
     { 
-      category: 'Android', 
-      items: ['Kotlin', 'Jetpack Compose', 'XML', 'MVVM', 'MVP', 'Clean Architecture', 'Room', 'Retrofit', 'Coroutines', 'Dagger-Hilt'] 
+      category: 'Mobile Development', 
+      items: ['Android', 'Kotlin', 'Jetpack Compose', 'Java', 'XML', 'Coroutines', 'CMP', 'MVVM & MVI', 'Data & View binding', 'Clean Architecture', 'Material Design', ] 
     },
     { 
-      category: 'Web', 
-      items: ['React.js', 'HTML5', 'CSS3', 'Power Platform'] 
+      category: 'Backend & Data Systems', 
+      items: ['SQLite and storages', 'RPCs', 'Firebase', 'Supabase', 'Networking', 'REST & GraphQL APIs' ] 
     },
     { 
-      category: 'Backend', 
-      items: ['Exploring Go', 'REST APIs', 'GraphQL', 'Supabase'] 
+      category: 'Tools & Deployment', 
+      items: ['Git and VCSs', 'Postman', 'Play console', 'Memory profiling', 'Debugging tools'] 
     },
     { 
       category: 'Other', 
-      items: ['Git', 'Data Structures & Algorithms', 'Clean Architecture', 'Material Design'] 
+      items: ['DS & Algorithms', 'Sys. Design (basics)', 'GoLang (Learning)', 'Agile / Scrum'] 
     },
   ];
 
