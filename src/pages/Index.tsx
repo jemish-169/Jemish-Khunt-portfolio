@@ -58,7 +58,6 @@ const Index = () => {
       <Experience />
       <Education />
       <Contact />
-      <Footer />
     </div>
   );
 };

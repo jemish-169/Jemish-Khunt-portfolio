@@ -37,11 +37,14 @@ const Hero = () => {
         </div>
       </div>
       
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <a href="#about" className="flex items-center justify-center w-10 h-10 rounded-full bg-android-green/20 hover:bg-android-green/30 transition-all duration-300">
-          <ArrowDown className="w-5 h-5 text-android-green" />
-        </a>
-      </div>
+
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
+  <div className="animate-bounce">
+    <a href="#about" className="flex items-center justify-center w-10 h-10 rounded-full bg-android-green/20 hover:bg-android-green/30 transition-all duration-300">
+      <ArrowDown className="w-5 h-5 text-android-green" />
+    </a>
+  </div>
+</div>
     </section>
   );
 };
