@@ -21,7 +21,7 @@ export const featuredProjects: Project[] = [
     ],
     techStack: ["Android", "Kotlin", "Supabase", "Jetpack compose", "Coroutines", "Hilt", "MVVM", "Clean Architecture", "Animations", "Material UI"],
     image: "/placeholder.svg",
-    links: { github: "#" }
+    links: { github: "https://github.com/jemish-169/Stocky-Inventory-Management-POS/" }
   },
   {
     title: "Pro Scanner - PDF Creator",
@@ -32,7 +32,7 @@ export const featuredProjects: Project[] = [
     ],
     techStack: ["Android", "Kotlin", "Jetpack compose", "Coroutines", "MVVM", "ML-kit", "Material UI", "File Management"],
     image: "/placeholder.svg",
-    links: { playstore: "#", github: "#" }
+    links: { playstore: "https://play.google.com/store/apps/details?id=com.elite.scanner", github: "https://github.com/jemish-169/Pro-Scanner" }
   },
   {
     title: "2048++ : puzzle game",
@@ -43,7 +43,7 @@ export const featuredProjects: Project[] = [
     ],
     techStack: ["Android", "Kotlin", "XML", "MVP", "Navigation Library", "Material UI", "Shared preferences"],
     image: "/placeholder.svg",
-    links: { playstore: "#", github: "#" }
+    links: { playstore: "https://play.google.com/store/apps/details?id=com.app.slidesum", github: "https://github.com/jemish-169/2048" }
   },
   {
     title: "Bhagavad Gita: Hindi & English",
@@ -53,7 +53,7 @@ export const featuredProjects: Project[] = [
     ],
     techStack: ["Android", "Kotlin", "XML", "MVVM", "Retrofit", "LiveData", "Animation"],
     image: "/placeholder.svg",
-    links: { playstore: "#", github: "#" }
+    links: { playstore: "https://play.google.com/store/apps/details?id=com.practice.gita", github: "https://github.com/jemish-169/Bhagavad-Gita" }
   },
   {
     title: "Trello - Project Management App",
@@ -64,7 +64,7 @@ export const featuredProjects: Project[] = [
     ],
     techStack: ["Android", "Kotlin", "XML", "Firebase", "Modular Architecture", "Coroutines", "Material Design"],
     image: "/placeholder.svg",
-    links: { github: "#" }
+    links: { github: "https://github.com/jemish-169/Trello-Project-Management-App" }
   },
   {
     title: "HelpDesk : An It ticketing PowerApp",
@@ -77,7 +77,7 @@ export const featuredProjects: Project[] = [
     ],
     techStack: ["Power Platform", "SharePoint", "Canvas app", "Power automate", "Connectors"],
     image: "/placeholder.svg",
-    links: { demo: "#" }
+    links: { demo: "https://www.github.com/jemish-169/HelpDesk/" }
   },
   {
     title: "BuzzTalk : A professional social media app",
@@ -89,7 +89,7 @@ export const featuredProjects: Project[] = [
     ],
     techStack: ["Android", "Kotlin", "XML", "MVVM", "Retrofit", "Dagger Hilt"],
     image: "/placeholder.svg",
-    links: { github: "#" }
+    links: { github: "https://github.com/jemish-169/BuzzTalk/" }
   },
   {
     title: "Brighter : A photo editing app",
@@ -100,7 +100,7 @@ export const featuredProjects: Project[] = [
     ],
     techStack: ["Android", "Kotlin", "XML", "JSON Animation", "DS photo SDK"],
     image: "/placeholder.svg",
-    links: { playstore: "#", github: "#" }
+    links: { playstore: "https://play.google.com/store/apps/details?id=com.tanxe.brighter", github: "https://github.com/jemish-169/Brighter" }
   },
 ];
 
@@ -114,7 +114,7 @@ export const minorProjects: Project[] = [
     ],
     techStack: ["Android", "Kotlin", "Supabase", "Jetpack compose", "Coroutines", "Hilt", "MVVM", "Clean Architecture", "Animations", "Material UI"],
     image: "/placeholder.svg",
-    links: { github: "#" }
+    links: { github: "https://github.com/jemish-169/Fitness91-App/" }
   },
   {
     title: "CricketScore",
@@ -125,7 +125,7 @@ export const minorProjects: Project[] = [
     ],
     techStack: ["Android", "Kotlin", "XML", "Firebase Realtime", "NavGraph", "Material UI"],
     image: "/placeholder.svg",
-    links: { github: "#" }
+    links: { github: "https://github.com/jemish-169/cricketscore" }
   },
   {
     title: "Travenor: Destination booking app",
@@ -136,7 +136,7 @@ export const minorProjects: Project[] = [
     ],
     techStack: ["Android", "Kotlin", "Jetpack compose", "Coroutines", "Animations", "Material UI"],
     image: "/placeholder.svg",
-    links: { github: "#" }
+    links: { github: "https://github.com/jemish-169/Travenor-Destination-booking-app" }
   },
   {
     title: "Mausam : A Weather & Forecast app",
@@ -147,7 +147,7 @@ export const minorProjects: Project[] = [
     ],
     techStack: ["Android", "Kotlin", "XML", "Retrofit", "JSON Animation"],
     image: "/placeholder.svg",
-    links: { github: "#", playstore: "#" }
+    links: { github: "https://github.com/jemish-169/Mausam", playstore: "https://play.google.com/store/apps/details?id=com.client.mausam" }
   },
   {
     title: "ChatAI",
@@ -157,6 +157,6 @@ export const minorProjects: Project[] = [
     ],
     techStack: ["Android", "Kotlin", "XML", "WebView"],
     image: "/placeholder.svg",
-    links: { github: "#" }
+    links: { github: "https://github.com/jemish-169/Chat-AI" }
   }
 ];

@@ -6,8 +6,8 @@ export const profileData = {
   currentFocus: "Exploring Back-end development with Golang. Brushing up my DSA skills everyday and Building A Tech Projects From Scratch That Can Solve Problems At Scale.",
   contactInfo: {
     email: "jemishkhunt169@gmail.com",
-    linkedin: "#",
-    twitter: "#",
-    github: "#"
+    linkedin: "https://www.linkedin.com/in/jemish-khunt/",
+    twitter: "https://x.com/jemish_app",
+    github: "https://github.com/jemish-169"
   }
 };

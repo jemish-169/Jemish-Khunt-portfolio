@@ -32,9 +32,9 @@ const Navbar = () => {
   ];
 
   const socialLinks = [
-    { name: 'GitHub', href: 'https://github.com/', icon: <Github className="h-5 w-5" /> },
-    { name: 'LinkedIn', href: 'https://linkedin.com/', icon: <Linkedin className="h-5 w-5" /> },
-    { name: 'Twitter', href: 'https://twitter.com/', icon: <Twitter className="h-5 w-5" /> },
+    { name: 'GitHub', href: 'https://github.com/jemish-169', icon: <Github className="h-5 w-5" /> },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/jemish-khunt/', icon: <Linkedin className="h-5 w-5" /> },
+    { name: 'Twitter', href: 'https://x.com/jemish_app', icon: <Twitter className="h-5 w-5" /> },
     { name: 'Email', href: 'mailto:jemishkhunt169@gmail.com', icon: <Mail className="h-5 w-5" /> }
   ];
 

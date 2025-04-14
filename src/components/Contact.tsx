@@ -39,7 +39,7 @@ const Contact = () => {
           <h3 className="text-xl font-semibold mb-4">Follow Me On</h3>
           <div className="flex justify-center space-x-6">
             <a
-              href="https://linkedin.com/" 
+              href="https://www.linkedin.com/in/jemish-khunt/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-android-green/10 hover:bg-android-green/20 p-4 rounded-full transition-all duration-300"
@@ -48,7 +48,7 @@ const Contact = () => {
               <Linkedin className="w-6 h-6 text-android-green" />
             </a>
             <a
-              href="https://twitter.com/" 
+              href="https://x.com/jemish_app" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-android-green/10 hover:bg-android-green/20 p-4 rounded-full transition-all duration-300"
@@ -57,7 +57,7 @@ const Contact = () => {
               <Twitter className="w-6 h-6 text-android-green" />
             </a>
             <a
-              href="https://github.com/" 
+              href="https://github.com/jemish-169" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-android-green/10 hover:bg-android-green/20 p-4 rounded-full transition-all duration-300"
