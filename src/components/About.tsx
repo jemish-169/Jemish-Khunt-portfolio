@@ -13,7 +13,7 @@ const About = () => {
     },
     { 
       category: 'Tools & Deployment', 
-      items: ['Git and VCSs', 'Postman', 'Play console', 'Memory profiling', 'Debugging tools'] 
+      items: ['Git and VCSs', 'Postman', 'Play console', 'Memory profiling', 'Benchmarks', 'Debugging tools'] 
     },
     { 
       category: 'Other', 
