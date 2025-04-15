@@ -15,11 +15,11 @@ const Experience = () => {
       title: "Software Engineer L2",
       company: "Crest Infosystems PVT. LTD",
       period: "June-2024 to present",
-      skills: ["Android Development", "Kotlin", "Java", "XML", "Compose Multiplatform", "Room database", "SOAP", "Retrofit", "GraphQL", "Pagination", "POS systems", "Barcode scanner"],
+      skills: ["Android Development", "Kotlin", "Java", "XML", "Compose Multiplatform", "Room database", "WorkManager", "SOAP", "Retrofit", "GraphQL", "Pagination", "POS systems", "Barcode scanner"],
       responsibilities: [
         "Built a cross-platform project management app using Compose Multiplatform, with a custom Canvas-based signature capture library for task authorization.",
         "Implemented an offline-first mechanism to save and complete deliveries locally, used WorkManager to sync data automatically when the network is available.",
-        "Developed and integrated ROA & ADJ modules and Expinet payment gateway in a delivery app, streamlining return on adjustment processes.",
+        "Developed ROA & ADJ module, integrated Expinet gateway, and reduced app crashes by 60% using Crashlytics and optimizing code.",
         "Implemented loyalty points feature in a food delivery app, enabling users to select from multiple programs for discounts, leveraging GraphQL for efficient data handling."
       ]
     },
@@ -27,9 +27,9 @@ const Experience = () => {
       title: "Software Engineer L1",
       company: "Crest Infosystems PVT. LTD",
       period: "Dec-2023 to June-2024",
-      skills: ["Android Development", "Kotlin", "XML", "Jetpack compose", "MVVM", "MVP", "Clean architecture", "Advanced design patterns", "Dagger & Hilt", "Room database"],
+      skills: ["Android Development", "Kotlin", "XML", "Jetpack compose", "MVVM", "Clean architecture", "Advanced design patterns", "Dagger & Hilt", "Room database"],
       responsibilities: [
-        "Enhanced a warehouse management app by implementing barcode scan-enabled pagination and search functionalities, improving operational efficiency.",
+        "Enhanced a warehouse management apps by implementing barcode scan-enabled pagination and search functionalities, improved operational efficiency.",
         "Mastered advanced Android technologies including Jetpack Compose, Coroutines, architectural patterns and Dagger-Hilt.",
         "Worked with Work manager, Alarm scheduler, Push notifications and storage APIs in Android."
       ]
@@ -94,7 +94,7 @@ const Experience = () => {
                 <div className="mb-4">
                   <h4 className="font-semibold mb-2">Skills:</h4>
                   <div className="flex flex-wrap gap-2">
-                    {exp.skills.slice(0, 5).map((skill, idx) => (
+                    {exp.skills.map((skill, idx) => (
                       <span 
                         key={idx} 
                         className="bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs"
@@ -102,11 +102,6 @@ const Experience = () => {
                         {skill}
                       </span>
                     ))}
-                    {exp.skills.length > 5 && (
-                      <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs">
-                        +{exp.skills.length - 5}
-                      </span>
-                    )}
                   </div>
                 </div>
                 
