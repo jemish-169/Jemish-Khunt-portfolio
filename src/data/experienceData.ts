@@ -16,7 +16,7 @@ export const experiences: Experience[] = [
     responsibilities: [
       "Built a cross-platform project management app using Compose Multiplatform, with a custom Canvas-based signature capture library for task authorization.",
       "Implemented an offline-first mechanism to save and complete deliveries locally, used WorkManager to sync data automatically when the network is available.",
-      "Developed and integrated ROA & ADJ modules and Expinet payment gateway in a delivery app, streamlining return on adjustment processes.",
+      "Developed ROA & ADJ module, integrated Expinet gateway, and reduced app crashes by 60% using Crashlytics and optimizing code.",
       "Implemented loyalty points feature in a food delivery app, enabling users to select from multiple programs for discounts, leveraging GraphQL for efficient data handling."
     ]
   },
@@ -26,7 +26,7 @@ export const experiences: Experience[] = [
     duration: "Dec-2023 to June-2024",
     skills: ["Android Development", "Kotlin", "XML", "Jetpack compose", "MVVM", "MVP", "Clean architecture", "Advanced design patterns", "Dagger & Hilt", "Room database"],
     responsibilities: [
-      "Enhanced a warehouse management app by implementing barcode scan-enabled pagination and search functionalities, improving operational efficiency.",
+      "Enhanced a warehouse management apps by implementing barcode scan-enabled pagination and search functionalities, improved operational efficiency.",
       "Mastered advanced Android technologies including Jetpack Compose, Coroutines, architectural patterns and Dagger-Hilt.",
       "Worked with Work manager, Alarm scheduler, Push notifications and storage APIs in Android."
     ]
