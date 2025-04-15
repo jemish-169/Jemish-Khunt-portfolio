@@ -17,7 +17,7 @@ const About = () => {
     },
     { 
       category: 'Other', 
-      items: ['C/C++', 'DS & Algorithms', 'Sys. Design (basics)', 'GoLang (Learning)', 'AWS', 'MS Power Platform'] 
+      items: ['C/C++', 'DS & Algo.', 'Sys. Design (basics)', 'GoLang (Learning)', 'AWS', 'MS Power Platform'] 
     },
   ];
 
