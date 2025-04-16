@@ -94,7 +94,7 @@ export const featuredProjects: Project[] = [
   {
     title: "Brighter : A photo editing app",
     description: [
-      "A photo editing Android app that allows users to edit photos using filters, frames, brightness and other 12+ tools.",
+      "A photo editing app that allows users to edit photos using filters, frames, brightness and other 12+ tools.",
       "Implemented with animations with Lottie and JSON.",
       "Maintained clean architecture, Professional UI design. App saves the edited photo in local storage."
     ],
