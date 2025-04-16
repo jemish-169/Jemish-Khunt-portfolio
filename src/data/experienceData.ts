@@ -48,11 +48,9 @@ export const experiences: Experience[] = [
     duration: "May-2022 to Aug-2022",
     skills: ["Android Development", "Kotlin", "XML", "Model-view-viewmodel (MVVM)", "Retrofit", "REST APIs"],
     responsibilities: [
-      "Worked on the Dashboard, Navbar and different Sections of the application like Monitoring team Section and Profile editing Section of the App.",
-      "Built feature for Uploading Excel-sheet of Work details, It saves estimated 6 Minutes of manual form filling.",
-      "Worked with the team on the design, development and Integration of API.",
-      "Improved user experience by optimizing existing code and fixing navigation and on-boarding bugs.",
-      "Worked on Data Verification, API Integration, Designing and Creating New Components Using Retrofit, XML and MVVM."
+      "Leveraged team-work management Android app by updating dashboard, navbar, team monitoring and edit profile section.",
+      "Featured the capability of uploading an Excel sheet of work details, saving approximately 6 minutes of manual form filling.",
+      "Reduced loading time by 2 seconds through local storage of Indian city names, eliminating the need for repeated data fetches."
     ]
   }
 ];
