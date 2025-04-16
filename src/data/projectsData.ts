@@ -48,7 +48,8 @@ export const featuredProjects: Project[] = [
   {
     title: "Bhagavad Gita: Hindi & English",
     description: [
-      "Designed and developed a Bhagavad Gita app featuring MVVM architecture, SQLite database integration with Room, and API consumption to get content.",
+      "Designed and developed a Bhagavad Gita app featuring MVVM architecture and implemented RoomDB for local storage and Retrofit for networking.",
+      "Implemented features like translator and commentator options, chapter summaries, bookmark, and share verses.",
       "Distinguished app with audio feature utilizing Media Player and Google Text-to-Speech also ensured seamless user experience by handling edge cases and implementing dark and light mode themes."
     ],
     techStack: ["Android", "Kotlin", "XML", "MVVM", "Retrofit", "LiveData", "Animation"],
@@ -69,9 +70,7 @@ export const featuredProjects: Project[] = [
   {
     title: "HelpDesk : An It ticketing PowerApp",
     description: [
-      "Built an application using Power Platform that enables users to create and edit tickets.",
-      "Created tickets are displayed on admin and user screens for easy tracking and editing.",
-      "Data stored in SharePoint is fetched and handled by connectors.",
+      "Built an application using Power Platform that enables users to create and manage tickets. Used SharePoint to store data.",
       "Implemented features, allowing users to edit and delete tickets and admins to edit, delete, assign and change ticket status.",
       "Developed automated email notifications flow to notify users and admin whenever a ticket is created or updated."
     ],
@@ -82,10 +81,9 @@ export const featuredProjects: Project[] = [
   {
     title: "BuzzTalk : A professional social media app",
     description: [
-      "A Social Media app where users can post, comment, like, connect, follow and chat with each others.",
+      "A Social Media app where users can post, comment, like, connect, follow, chat and tag each other in post (using LinkedIn SpyGlass Library).",
       "Followed MVVM Architecture through the application with Dagger Hilt for Dependency Injection.",
-      "Implemented Real time Chat Functionality using Socket.io",
-      "Implemented REST APIs in Android using Retrofit."
+      "Implemented Real time Chat Functionality using Socket.io. Implemented REST APIs in Android using Retrofit."
     ],
     techStack: ["Android", "Kotlin", "XML", "MVVM", "Retrofit", "Dagger Hilt"],
     image: "buzztalk_icon.png",
