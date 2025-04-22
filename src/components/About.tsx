@@ -1,5 +1,5 @@
 
-import { Code, Database, Smartphone, Rocket } from 'lucide-react';
+import { Code, Database, Globe, Smartphone, Rocket } from 'lucide-react';
 
 const About = () => {
   const skills = [
@@ -44,6 +44,34 @@ const About = () => {
     }
   ];
 
+  const codingProfiles = [
+    {
+      name: "Apps on Play Store",
+      url: "https://play.google.com/store/apps/dev?id=7687986750641760892",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      name: "LeetCode",
+      url: "https://leetcode.com/jemish_169/",
+      icon: <Code className="w-5 h-5" />
+    },
+    {
+      name: "GeeksForGeeks",
+      url: "https://geeksforgeeks.org/user/jemish_169/",
+      icon: <Code className="w-5 h-5" />
+    },
+    {
+      name: "CodeChef",
+      url: "https://www.codechef.com/users/jemish_1692",
+      icon: <Code className="w-5 h-5" />
+    },
+    {
+      name: "Codeforces",
+      url: "https://codeforces.com/profile/jemish_169",
+      icon: <Code className="w-5 h-5" />
+    }
+  ];
+
   return (
     <section id="about" className="py-20 bg-white">
       <div className="section-padding">
@@ -80,7 +108,7 @@ const About = () => {
           </div>
           
           <h3 className="text-2xl font-bold mb-6 text-center">My Skills</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 mb-16">
             {skills.map((skillGroup, index) => (
               <div 
                 key={index} 
@@ -91,7 +119,7 @@ const About = () => {
                   {skillGroup.items.map((skill, idx) => (
                     <span 
                       key={idx} 
-                      className="bg-android-green/10 text-android-dark px-3 py-1 rounded-full text-sm"
+                      className="bg-android-green/5 text-android-dark px-3 py-1 rounded-full text-sm"
                     >
                       {skill}
                     </span>
@@ -100,8 +128,28 @@ const About = () => {
               </div>
             ))}
           </div>
+
+          <h3 className="text-2xl font-bold mb-6 text-center">Coding Profiles</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {codingProfiles.map((profile, index) => (
+              <a 
+                key={index}
+                href={profile.url} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center px-4 py-3 bg-android-green/5 hover:bg-android-green/15 rounded-lg transition-all duration-300 group"
+              >
+                <div className="w-10 h-10 rounded-full bg-android-green/10 flex items-center justify-center mr-3 group-hover:bg-android-green/20 transition-colors">
+                  <span className="text-android-green">
+                    {profile.icon}
+                  </span>
+                </div>
+                <span className="font-medium">{profile.name}</span>
+              </a>
+              ))}
+            </div>
+          </div>
         </div>
-      </div>
     </section>
   );
 };
