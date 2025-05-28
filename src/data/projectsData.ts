@@ -4,9 +4,9 @@ export interface Project {
   description: string[];
   techStack: string[];
   image: string;
-  links: { 
-    demo?: string; 
-    github?: string; 
+  links: {
+    demo?: string;
+    github?: string;
     playstore?: string;
   };
 }
@@ -67,39 +67,6 @@ export const featuredProjects: Project[] = [
     image: "trello_icon.png",
     links: { github: "https://github.com/jemish-169/Trello-Project-Management-App" }
   },
-  {
-    title: "HelpDesk : An It ticketing PowerApp",
-    description: [
-      "Built an application using Power Platform that enables users to create and manage tickets. Used SharePoint to store data.",
-      "Implemented features, allowing users to edit and delete tickets and admins to edit, delete, assign and change ticket status.",
-      "Developed automated email notifications flow to notify users and admin whenever a ticket is created or updated."
-    ],
-    techStack: ["Power Platform", "SharePoint", "Canvas app", "Power automate", "Connectors"],
-    image: "helpdesk_icon.png",
-    links: { demo: "https://www.github.com/jemish-169/HelpDesk/" }
-  },
-  {
-    title: "BuzzTalk : A professional social media app",
-    description: [
-      "A Social Media app where users can post, comment, like, connect, follow, chat and tag each other in post (using LinkedIn SpyGlass Library).",
-      "Followed MVVM Architecture through the application with Dagger Hilt for Dependency Injection.",
-      "Implemented Real time Chat Functionality using Socket.io. Implemented REST APIs in Android using Retrofit."
-    ],
-    techStack: ["Android", "Kotlin", "XML", "MVVM", "Retrofit", "Dagger Hilt"],
-    image: "buzztalk_icon.png",
-    links: { github: "https://github.com/jemish-169/BuzzTalk/" }
-  },
-  {
-    title: "Brighter : A photo editing app",
-    description: [
-      "A photo editing app that allows users to edit photos using filters, frames, brightness and other 12+ tools.",
-      "Implemented with animations with Lottie and JSON.",
-      "Maintained clean architecture, Professional UI design. App saves the edited photo in local storage."
-    ],
-    techStack: ["Android", "Kotlin", "XML", "JSON Animation", "DS photo SDK"],
-    image: "brighter_icon.png",
-    links: { playstore: "https://play.google.com/store/apps/details?id=com.tanxe.brighter", github: "https://github.com/jemish-169/Brighter" }
-  },
 ];
 
 export const minorProjects: Project[] = [
@@ -137,6 +104,17 @@ export const minorProjects: Project[] = [
     links: { github: "https://github.com/jemish-169/Travenor-Destination-booking-app" }
   },
   {
+    title: "BuzzTalk : A professional social media app",
+    description: [
+      "A Social Media app where users can post, comment, like, connect, follow, chat and tag each other in post (using LinkedIn SpyGlass Library).",
+      "Followed MVVM Architecture through the application with Dagger Hilt for Dependency Injection.",
+      "Implemented Real time Chat Functionality using Socket.io. Implemented REST APIs in Android using Retrofit."
+    ],
+    techStack: ["Android", "Kotlin", "XML", "MVVM", "Retrofit", "Dagger Hilt"],
+    image: "buzztalk_icon.png",
+    links: { github: "https://github.com/jemish-169/BuzzTalk/" }
+  },
+  {
     title: "Mausam : A Weather & Forecast app",
     description: [
       "Developed a weather app, which allows users to view current weather conditions, forecasts and astronomy data for any city.",
@@ -146,6 +124,28 @@ export const minorProjects: Project[] = [
     techStack: ["Android", "Kotlin", "XML", "Retrofit", "JSON Animation"],
     image: "/placeholder.svg",
     links: { github: "https://github.com/jemish-169/Mausam", playstore: "https://play.google.com/store/apps/details?id=com.client.mausam" }
+  },
+  {
+    title: "HelpDesk : An It ticketing PowerApp",
+    description: [
+      "Built an application using Power Platform that enables users to create and manage tickets. Used SharePoint to store data.",
+      "Implemented features, allowing users to edit and delete tickets and admins to edit, delete, assign and change ticket status.",
+      "Developed automated email notifications flow to notify users and admin whenever a ticket is created or updated."
+    ],
+    techStack: ["Power Platform", "SharePoint", "Canvas app", "Power automate", "Connectors"],
+    image: "helpdesk_icon.png",
+    links: { github: "https://www.github.com/jemish-169/HelpDesk/" }
+  },
+  {
+    title: "Brighter : A photo editing app",
+    description: [
+      "A photo editing app that allows users to edit photos using filters, frames, brightness and other 12+ tools.",
+      "Implemented with animations with Lottie and JSON.",
+      "Maintained clean architecture, Professional UI design. App saves the edited photo in local storage."
+    ],
+    techStack: ["Android", "Kotlin", "XML", "JSON Animation", "DS photo SDK"],
+    image: "brighter_icon.png",
+    links: { github: "https://github.com/jemish-169/Brighter" }
   },
   {
     title: "ChatAI",
