@@ -4,7 +4,6 @@ export interface Project {
   techStack: string[];
   image: string;
   links: {
-    demo?: string;
     github?: string;
     playstore?: string;
   };
@@ -102,7 +101,7 @@ export const minorProjects: Project[] = [
     ],
     techStack: ["Web App", "Python", "Jinja2", "Docker", "AWS Lambda", "Netlify"],
     image: "/placeholder.svg",
-    links: { github: "https://github.com/jemish-169/Android-Launcher" }
+    links: { github: "https://github.com/jemish-169/Android-Launcher", playstore: "https://android-launcher.netlify.app/" } // it is a web app, not an android app
   },
   {
     title: "Fitness91",
