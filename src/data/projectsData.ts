@@ -111,7 +111,7 @@ export const minorProjects: Project[] = [
       "Implemented Real time Chat Functionality using Socket.io. Implemented REST APIs in Android using Retrofit."
     ],
     techStack: ["Android", "Kotlin", "XML", "MVVM", "Retrofit", "Dagger Hilt"],
-    image: "buzztalk_icon.png",
+    image: "/placeholder.svg",
     links: { github: "https://github.com/jemish-169/BuzzTalk/" }
   },
   {
@@ -133,7 +133,7 @@ export const minorProjects: Project[] = [
       "Developed automated email notifications flow to notify users and admin whenever a ticket is created or updated."
     ],
     techStack: ["Power Platform", "SharePoint", "Canvas app", "Power automate", "Connectors"],
-    image: "helpdesk_icon.png",
+    image: "/placeholder.svg",
     links: { github: "https://www.github.com/jemish-169/HelpDesk/" }
   },
   {
@@ -144,7 +144,7 @@ export const minorProjects: Project[] = [
       "Maintained clean architecture, Professional UI design. App saves the edited photo in local storage."
     ],
     techStack: ["Android", "Kotlin", "XML", "JSON Animation", "DS photo SDK"],
-    image: "brighter_icon.png",
+    image: "/placeholder.svg",
     links: { github: "https://github.com/jemish-169/Brighter" }
   },
   {

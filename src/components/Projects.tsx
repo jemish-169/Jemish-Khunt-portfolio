@@ -1,4 +1,3 @@
-
 import { ExternalLink, Github } from 'lucide-react';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
@@ -28,7 +27,7 @@ const Projects = () => {
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="h-16 w-auto object-contain"
+                  className="h-16 w-auto object-contain rounded-[10px]"
                 />
               </div>
               
