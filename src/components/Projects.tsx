@@ -7,7 +7,7 @@ const Projects = () => {
   const [currentProject, setCurrentProject] = useState<Project | null>(null);
   const [showAll, setShowAll] = useState(false);
   
-  const visibleProjects = showAll ? featuredProjects : featuredProjects.slice(0, 5);
+  const visibleProjects = showAll ? featuredProjects : featuredProjects.slice(0, 6);
 
   return (
     <section id="projects" className="py-20 bg-gray-50">
@@ -89,7 +89,7 @@ const Projects = () => {
           ))}
         </div>
         
-        {featuredProjects.length > 5 && (
+        {featuredProjects.length > 6 && (
           <div className="flex justify-center mt-10">
             <Button
               onClick={() => setShowAll(!showAll)}

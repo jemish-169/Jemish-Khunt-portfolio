@@ -1,4 +1,3 @@
-
 export interface Project {
   title: string;
   description: string[];
@@ -12,6 +11,30 @@ export interface Project {
 }
 
 export const featuredProjects: Project[] = [
+  {
+    title: "Agri Price",
+    description: [
+      "Created Agri-Price app to show daily crop prices (min/max) in all Gujarat markets. Used Kotlin and Jetpack Compose to build easy-to-use UI with offline-first support using Room DB.",
+      "Used Supabase to store clean crop and market data. Wrote Python scripts to fetch and update public data daily. Old data (over 100 days) and unused crops are removed automatically.",
+      "Added onboarding for user’s preferred crops and markets. Used Koin for DI, Navigation3 for screens, and added theme change option. Data refresh rules keep app light and fast."
+    ],
+    techStack: [
+      "Android",
+      "Kotlin",
+      "Supabase",
+      "Jetpack Compose",
+      "Room",
+      "Koin",
+      "Navigation3",
+      "Offline-first",
+      "Material UI"
+    ],
+    image: "agri-price_icon.png",
+    links: {
+      playstore: "https://play.google.com/store/apps/details?id=com.elite.agriprice",
+      github: "https://github.com/jemish-169/Agri-Price"
+    }
+  },
   {
     title: "Stocky - Inventory management POS",
     description: [
@@ -70,6 +93,17 @@ export const featuredProjects: Project[] = [
 ];
 
 export const minorProjects: Project[] = [
+  {
+    title: "Android-Launcher",
+    description: [
+      "Built a web-based tool to generate Android starter projects with custom setup like Compose/XML, DI, Networking, Room, themes, and more. Users can pick tools and download ready-to-run ZIP files.",
+      "Frontend is made using AI-powered builder and hosted on Netlify. Simple and clean form lets users configure their project easily.",
+      "Backend is written in Python using Jinja2 templates to create Android project files. Deployed using Docker on AWS Lambda via ECR for fast and scalable performance."
+    ],
+    techStack: ["Web App", "Python", "Jinja2", "Docker", "AWS Lambda", "Netlify"],
+    image: "/placeholder.svg",
+    links: { github: "https://github.com/jemish-169/Android-Launcher" }
+  },
   {
     title: "Fitness91",
     description: [
