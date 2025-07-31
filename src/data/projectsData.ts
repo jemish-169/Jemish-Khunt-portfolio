@@ -156,7 +156,7 @@ export const minorProjects: Project[] = [
     ],
     techStack: ["Android", "Kotlin", "XML", "Retrofit", "JSON Animation"],
     image: "/placeholder.svg",
-    links: { github: "https://github.com/jemish-169/Mausam", playstore: "https://play.google.com/store/apps/details?id=com.client.mausam" }
+    links: { github: "https://github.com/jemish-169/Mausam" }
   },
   {
     title: "HelpDesk : An It ticketing PowerApp",
