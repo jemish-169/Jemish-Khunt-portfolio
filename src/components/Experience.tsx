@@ -1,4 +1,3 @@
-
 import { Briefcase } from 'lucide-react';
 
 interface ExperienceItem {
@@ -17,6 +16,7 @@ const Experience = () => {
       period: "June-2024 to present",
       skills: ["Android Development", "Kotlin", "Java", "XML", "Compose Multiplatform", "Room database", "WorkManager", "SOAP", "Retrofit", "GraphQL", "Pagination", "POS systems", "Barcode scanner"],
       responsibilities: [
+        "Working on a POS app using Compose Multiplatform, enabling store owners to manage inventory via barcode scanning and access multi-store sales reports.",
         "Built a cross-platform project management app using Compose Multiplatform, with a custom Canvas-based signature capture library for task authorization.",
         "Implemented an offline-first mechanism to save and complete deliveries locally, used WorkManager to sync data automatically when the network is available.",
         "Developed ROA & ADJ module, integrated Expinet gateway, and reduced app crashes by 60% using Crashlytics and optimizing code.",

@@ -1,11 +1,10 @@
-
 import { Code, Database, Smartphone, Rocket } from 'lucide-react';
 
 const About = () => {
   const skills = [
     { 
       category: 'Mobile Development', 
-      items: ['Android', 'Kotlin', 'Jetpack Compose', 'Java', 'XML', 'Coroutines', 'CMP', 'MVVM & MVI', 'Data & View binding', 'Clean Architecture', 'Material Design', ] 
+      items: ['Android', 'Kotlin', 'Jetpack Compose', 'Compose MultiPlatform', 'Coroutines', 'Java', 'XML', 'Koin', 'Hilt', 'Data & View binding', 'MockK', 'JUnit4', 'MVVM & MVI', 'Offline-first', 'Clean Architecture'] 
     },
     { 
       category: 'Backend & Data Systems', 
@@ -13,7 +12,7 @@ const About = () => {
     },
     { 
       category: 'Tools & Deployment', 
-      items: ['Git and VCSs', 'Postman', 'Play console', 'Memory profiling', 'Benchmarks', 'Debugging tools'] 
+      items: ['Git and VCSs', 'CI pipelines', 'Postman', 'Play console', 'Memory profiling', 'Benchmarks', 'Debugging tools'] 
     },
     { 
       category: 'Other', 
