@@ -8,7 +8,7 @@ const About = () => {
     },
     { 
       category: 'Backend & Data Systems', 
-      items: ['SQLite and storages', 'RPCs', 'Firebase', 'Supabase', 'Networking', 'REST & GraphQL APIs' ] 
+      items: ['SQLite and storages', 'RPCs', 'Firebase', 'Supabase', 'Networking', 'REST APIs', 'GraphQL' ] 
     },
     { 
       category: 'Tools & Deployment', 
@@ -16,7 +16,7 @@ const About = () => {
     },
     { 
       category: 'Other', 
-      items: ['C/C++', 'DS & Algo.', 'Sys. Design (basics)', 'GoLang (Learning)', 'AWS', 'MS Power Platform'] 
+      items: ['C/C++', 'Data Structures' 'Algorithms', 'System Design 'GoLang', 'AWS', 'MS Power Platform'] 
     },
   ];
 
