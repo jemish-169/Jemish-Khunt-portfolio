@@ -60,11 +60,11 @@ export const featuredProjects: Project[] = [
   {
     title: "2048++ : puzzle game",
     description: [
-      "Developed 2048++ game with advanced features, including undo and a Hammer tool to remove random tiles, enhancing gameplay strategy and user engagement.",
+      "Developed 2048++ game with advanced features, including undo and a Hammer tool to remove random tiles.",
       "Designed the game to function entirely offline, leveraging shared preferences to efficiently save and manage user data.",
-      "Created visually appealing themes to enhance the aesthetic appeal and provide a delightful user experience."
+      "Created visually creative themes to enhance the user experience."
     ],
-    techStack: ["Android", "Kotlin", "XML", "MVP", "Navigation Library", "Material UI", "Shared preferences"],
+    techStack: ["Android", "Kotlin", "XML", "MVP", "XML - NavGraph", "Material UI", "Shared preferences"],
     image: "2048_icon.png",
     links: { playstore: "https://play.google.com/store/apps/details?id=com.app.slidesum", github: "https://github.com/jemish-169/2048" }
   },
