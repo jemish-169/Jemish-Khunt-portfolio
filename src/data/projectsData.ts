@@ -11,23 +11,13 @@ export interface Project {
 
 export const featuredProjects: Project[] = [
   {
-    title: "Agri Price",
+    title: "Agri Price: Daily Crop Prices Gujarat",
     description: [
       "Created Agri-Price app to show daily crop prices (min/max) in all Gujarat markets. Used Kotlin and Jetpack Compose to build easy-to-use UI with offline-first support using Room DB.",
       "Used Supabase to store clean crop and market data. Wrote Python scripts to fetch and update public data daily. Old data (over 100 days) and unused crops are removed automatically.",
-      "Added onboarding for user’s preferred crops and markets. Used Koin for DI, Navigation3 for screens, and added theme change option. Data refresh rules keep app light and fast."
+      "Implemented notifications for today's updated Markets. For better User experience managed Themes and Data refresh rules for offline-first architecture."
     ],
-    techStack: [
-      "Android",
-      "Kotlin",
-      "Supabase",
-      "Jetpack Compose",
-      "Room",
-      "Koin",
-      "Navigation3",
-      "Offline-first",
-      "Material UI"
-    ],
+    techStack: ["Android", "Kotlin", "Supabase", "Jetpack Compose", "Room", "Koin", "Notification", "Navigation3", "Offline-first", "Material UI"],
     image: "agri-price_icon.png",
     links: {
       playstore: "https://play.google.com/store/apps/details?id=com.elite.agriprice",
@@ -46,7 +36,7 @@ export const featuredProjects: Project[] = [
     links: { github: "https://github.com/jemish-169/Stocky-Inventory-Management-POS/" }
   },
   {
-    title: "Pro Scanner - PDF Creator",
+    title: "Pro Scanner - PDF Scanner App",
     description: [
       "Developed a robust document scanning app using Android Jetpack Compose for an intuitive, modern UI, implemented MVVM architecture for clean, maintainable code and seamless state management.",
       "Integrated ML Kit for advanced features such as automatic document detection and smart cropping, improving accuracy and efficiency in document scanning.",
@@ -74,7 +64,7 @@ export const featuredProjects: Project[] = [
       "Implemented features like translations and commentaries, chapter summaries, mark favourite verses, Scheduled notifications, and share verses with custom designs & themes.",
       "App has audio feature utilizing Media Player and for better user experience in reading implemented dark and light mode."
     ],
-    techStack: ["Android", "Kotlin", "Jetpack compose", "MVVM", "Ktor", "Flow", "Navigation3", "RoomDB", "Media Player", "Supabase"],
+    techStack: ["Android", "Kotlin", "Jetpack compose", "MVVM", "Ktor", "Notification", "Navigation3", "RoomDB", "Media Player", "Supabase"],
     image: "gita_icon.png",
     links: { playstore: "https://play.google.com/store/apps/details?id=com.practice.gita", github: "https://github.com/jemish-169/Bhagavad-Gita" }
   },
@@ -93,7 +83,7 @@ export const featuredProjects: Project[] = [
 
 export const minorProjects: Project[] = [
   {
-    title: "Android-Launcher",
+    title: "Android-Launcher: Android Starter Project Generator",
     description: [
       "Built a web-based tool to generate Android starter projects with custom setup like Compose/XML, DI, Networking, Room, themes, and more. Users can pick tools and download ready-to-run ZIP files.",
       "Frontend is made using AI-powered builder and hosted on Netlify. Simple and clean form lets users configure their project easily.",
@@ -104,7 +94,7 @@ export const minorProjects: Project[] = [
     links: { github: "https://github.com/jemish-169/Android-Launcher", playstore: "https://android-launcher.netlify.app/" } // it is a web app, not an android app
   },
   {
-    title: "Fitness91",
+    title: "Fitness91: Fitness Tracking App",
     description: [
       "Built a fitness tracking Android app using Jetpack Compose, and Supabase with modules for gym workouts, face exercises, and diet planning.",
       "Implemented dynamic dashboards, in-app theming, and color-coded progress indicators to visualize daily and overall completion stats.",
@@ -115,7 +105,7 @@ export const minorProjects: Project[] = [
     links: { github: "https://github.com/jemish-169/Fitness91-App/" }
   },
   {
-    title: "CricketScore",
+    title: "CricketScore: Live Cricket Score Tracking App",
     description: [
       "Built a real-time cricket score tracking app using Kotlin, Firebase, and Single Activity Architecture with modular fragments for smooth navigation.",
       "Implemented automatic run calculation, strike switching, and bowler management to streamline match progression and user input.",
@@ -181,7 +171,7 @@ export const minorProjects: Project[] = [
     links: { github: "https://github.com/jemish-169/Brighter" }
   },
   {
-    title: "ChatAI",
+    title: "ChatAI: AI ChatBot",
     description: [
       "A secure webview based chat-bot to interact with Gemini AI by Google.",
       "FAQ and user guide to onboard user and guide for use of chatBot."
