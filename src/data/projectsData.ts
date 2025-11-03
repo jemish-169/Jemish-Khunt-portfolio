@@ -70,11 +70,11 @@ export const featuredProjects: Project[] = [
   {
     title: "Bhagavad Gita: Hindi & English",
     description: [
-      "Designed and developed a Bhagavad Gita app featuring MVVM architecture and implemented RoomDB for local storage and Retrofit for networking.",
-      "Implemented features like translator and commentator options, chapter summaries, bookmark, and share verses.",
-      "Distinguished app with audio feature utilizing Media Player and Google Text-to-Speech also ensured seamless user experience by handling edge cases and implementing dark and light mode themes."
+      "Designed and developed a Bhagavad Gita app featuring MVVM architecture and implemented RoomDB for local storage and ktor for networking.",
+      "Implemented features like translations and commentaries, chapter summaries, mark favourite verses, Scheduled notifications, and share verses with custom designs & themes.",
+      "App has audio feature utilizing Media Player and for better user experience in reading implemented dark and light mode."
     ],
-    techStack: ["Android", "Kotlin", "XML", "MVVM", "Retrofit", "LiveData", "Animation"],
+    techStack: ["Android", "Kotlin", "Jetpack compose", "MVVM", "Ktor", "Flow", "Navigation3", "RoomDB", "Media Player", "Supabase"],
     image: "gita_icon.png",
     links: { playstore: "https://play.google.com/store/apps/details?id=com.practice.gita", github: "https://github.com/jemish-169/Bhagavad-Gita" }
   },
