@@ -25,17 +25,6 @@ export const featuredProjects: Project[] = [
     }
   },
   {
-    title: "Stocky - Inventory management POS",
-    description: [
-      "Developed a inventory management app using Kotlin, Jetpack Compose, and Supabase. Included modules like inventory tracking, sales with PDF invoices, transactions, and analytics.",
-      "Implemented Hilt and Followed MVVM and Clean Architecture for scalability and clean code. Added smooth animations, dark/light themes, and multilingual support for better UX.",
-      "Used Supabase RPC functions to handle concurrent transactions. Ensured real-time data consistency and smooth multi-user interactions."
-    ],
-    techStack: ["Android", "Kotlin", "Supabase", "Jetpack compose", "Coroutines", "Hilt", "MVVM", "Clean Architecture", "Animations", "Material UI"],
-    image: "stocky_icon.png",
-    links: { github: "https://github.com/jemish-169/Stocky-Inventory-Management-POS/" }
-  },
-  {
     title: "Pro Scanner - PDF Scanner App",
     description: [
       "Developed a robust document scanning app using Android Jetpack Compose for an intuitive, modern UI, implemented MVVM architecture for clean, maintainable code and seamless state management.",
@@ -47,17 +36,6 @@ export const featuredProjects: Project[] = [
     links: { playstore: "https://play.google.com/store/apps/details?id=com.elite.scanner", github: "https://github.com/jemish-169/Pro-Scanner" }
   },
   {
-    title: "2048++ : puzzle game",
-    description: [
-      "Developed 2048++ game with advanced features, including undo and a Hammer tool to remove random tiles, enhancing gameplay strategy and user engagement.",
-      "Designed the game to function entirely offline, leveraging shared preferences to efficiently save and manage user data.",
-      "Created visually appealing themes to enhance the aesthetic appeal and provide a delightful user experience."
-    ],
-    techStack: ["Android", "Kotlin", "XML", "MVP", "Navigation Library", "Material UI", "Shared preferences"],
-    image: "2048_icon.png",
-    links: { playstore: "https://play.google.com/store/apps/details?id=com.app.slidesum", github: "https://github.com/jemish-169/2048" }
-  },
-  {
     title: "Bhagavad Gita: Hindi & English",
     description: [
       "Designed and developed a Bhagavad Gita app featuring MVVM architecture and implemented RoomDB for local storage and ktor for networking.",
@@ -67,6 +45,28 @@ export const featuredProjects: Project[] = [
     techStack: ["Android", "Kotlin", "Jetpack compose", "MVVM", "Ktor", "Notification", "Navigation3", "RoomDB", "Media Player", "Supabase"],
     image: "gita_icon.png",
     links: { playstore: "https://play.google.com/store/apps/details?id=com.practice.gita", github: "https://github.com/jemish-169/Bhagavad-Gita" }
+  },
+  {
+    title: "Stocky - Inventory management POS",
+    description: [
+      "Developed a inventory management app using Kotlin, Jetpack Compose, and Supabase. Included modules like inventory tracking, sales with PDF invoices, transactions, and analytics.",
+      "Implemented Hilt and Followed MVVM and Clean Architecture for scalability and clean code. Added smooth animations, dark/light themes, and multilingual support for better UX.",
+      "Used Supabase RPC functions to handle concurrent transactions. Ensured real-time data consistency and smooth multi-user interactions."
+    ],
+    techStack: ["Android", "Kotlin", "Supabase", "Jetpack compose", "Coroutines", "Hilt", "MVVM", "Clean Architecture", "Animations", "Material UI"],
+    image: "stocky_icon.png",
+    links: { github: "https://github.com/jemish-169/Stocky-Inventory-Management-POS/" }
+  },
+  {
+    title: "2048++ : puzzle game",
+    description: [
+      "Developed 2048++ game with advanced features, including undo and a Hammer tool to remove random tiles, enhancing gameplay strategy and user engagement.",
+      "Designed the game to function entirely offline, leveraging shared preferences to efficiently save and manage user data.",
+      "Created visually appealing themes to enhance the aesthetic appeal and provide a delightful user experience."
+    ],
+    techStack: ["Android", "Kotlin", "XML", "MVP", "Navigation Library", "Material UI", "Shared preferences"],
+    image: "2048_icon.png",
+    links: { playstore: "https://play.google.com/store/apps/details?id=com.app.slidesum", github: "https://github.com/jemish-169/2048" }
   },
   {
     title: "Trello - Project Management App",
