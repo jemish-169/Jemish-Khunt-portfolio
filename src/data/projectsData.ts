@@ -58,9 +58,9 @@ export const featuredProjects: Project[] = [
     links: { github: "https://github.com/jemish-169/Stocky-Inventory-Management-POS/" }
   },
   {
-    title: "2048++ : puzzle game",
+    title: "2048: Merge Number Puzzle",
     description: [
-      "Developed 2048++ game with advanced features, including undo and a Hammer tool to remove random tiles.",
+      "Developed 2048 game with advanced features, including undo and a Hammer tool to remove random tiles.",
       "Designed the game to function entirely offline, leveraging shared preferences to efficiently save and manage user data.",
       "Created visually creative themes to enhance the user experience."
     ],
