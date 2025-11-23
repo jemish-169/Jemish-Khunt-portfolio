@@ -2,22 +2,22 @@ import { Code, Database, Smartphone, Rocket } from 'lucide-react';
 
 const About = () => {
   const skills = [
-    { 
-      category: 'Mobile Development', 
-      items: ['Android', 'Kotlin', 'Jetpack Compose', 'Compose MultiPlatform', 'Coroutines', 'Java', 'XML', 'Koin', 'Hilt', 'Data & View binding', 'MockK', 'JUnit4', 'MVVM & MVI', 'Offline-first', 'Clean Architecture'] 
+    {
+      category: 'Mobile Development',
+      items: ['Android', 'Kotlin', 'Jetpack Compose', 'Compose Multiplatform', 'Coroutines', 'Flow', 'Java', 'XML', 'Koin', 'Hilt', 'Data & View binding', 'MockK', 'JUnit4', 'MVVM & MVI', 'Offline-first', 'Clean Architecture', 'CameraX', 'WorkManager']
     },
-    { 
-      category: 'Backend & Data Systems', 
-      items: ['SQLite and storages', 'RPCs', 'Firebase', 'Supabase', 'Networking', 'REST APIs', 'GraphQL' ] 
+    {
+      category: 'Backend & Data Systems',
+      items: ['SQLite and in-app storages', 'RPCs', 'Firebase', 'Supabase', 'Networking', 'REST APIs', 'GraphQL', 'Ktor', 'Retrofit']
     },
-    { 
-      category: 'Tools & Deployment', 
-      items: ['Git and VCSs', 'CI pipelines', 'Postman', 'Play console', 'Memory profiling', 'Benchmarks', 'Debugging tools'] 
+    {
+      category: 'Tools & Deployment',
+      items: ['Git and VCSs', 'CI/CD pipelines', 'Postman', 'Play Console release management', 'Memory profiling', 'Benchmarks', 'Debugging tools', 'Testing (Unit & UI)', 'Performance monitoring & ANR reduction']
     },
-    { 
-      category: 'Other', 
-      items: ['C/C++', 'Data Structures', 'Algorithms', 'System Design', 'Python', 'GoLang', 'AWS', 'MS Power Platform'] 
-    },
+    {
+      category: 'Other',
+      items: ['C/C++', 'Data Structures & Algorithms', 'System Design', 'Python', 'AWS', 'Microsoft Power Platform']
+    }
   ];
 
   const WhatIDo = [
@@ -51,7 +51,7 @@ const About = () => {
             About <span className="text-android-green">Me</span>
           </h2>
           <div className="w-24 h-1 bg-android-green mx-auto mb-10 rounded-full"></div>
-          
+
           <div className="animate-on-scroll mb-12 text-gray-700">
             <p className="mb-4 text-lg">
               I am a passionate software developer who thrives on challenges, embraces learning from mistakes, and adapts quickly. My journey began with Android development fundamentals (Kotlin and XML) during my second year of Computer Engineering.
@@ -63,12 +63,12 @@ const About = () => {
               Currently, I'm focusing on expanding my knowledge in backend development with Golang, strengthening my DSA skills daily, and building scalable tech solutions from the ground up.
             </p>
           </div>
-          
+
           <h3 className="text-2xl font-bold mb-8 text-center">What I'm Doing Right Now</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
             {WhatIDo.map((item, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="animate-on-scroll p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 bg-white"
               >
                 <div className="mb-4">{item.icon}</div>
@@ -77,19 +77,19 @@ const About = () => {
               </div>
             ))}
           </div>
-          
+
           <h3 className="text-2xl font-bold mb-6 text-center">My Skills</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
             {skills.map((skillGroup, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="animate-on-scroll border border-gray-100 rounded-lg p-5 shadow-sm hover:shadow-md transition-all duration-300"
               >
                 <h4 className="font-semibold text-xl mb-3 text-android-green">{skillGroup.category}</h4>
                 <div className="flex flex-wrap gap-2">
                   {skillGroup.items.map((skill, idx) => (
-                    <span 
-                      key={idx} 
+                    <span
+                      key={idx}
                       className="bg-android-green/10 text-android-dark px-3 py-1 rounded-full text-sm"
                     >
                       {skill}

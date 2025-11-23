@@ -12,23 +12,24 @@ export const experiences: Experience[] = [
     title: "Software Engineer L2",
     company: "Crest Infosystems PVT. LTD",
     duration: "June-2024 to present",
-    skills: ["Android Development", "Kotlin", "Java", "XML", "Compose Multiplatform", "Room database", "SOAP", "Retrofit", "GraphQL", "Pagination", "POS systems", "Barcode scanner"],
+    skills: ["Android Development", "Kotlin", "Java", "XML", "Compose Multiplatform", "Room", "WorkManager", "Retrofit", "GraphQL", "POS systems", "Barcode scanner"],
     responsibilities: [
-      "Built a cross-platform project management app using Compose Multiplatform, with a custom Canvas-based signature capture library for task authorization.",
-      "Implemented an offline-first mechanism to save and complete deliveries locally, used WorkManager to sync data automatically when the network is available.",
-      "Developed ROA & ADJ module, integrated Expinet gateway, and reduced app crashes by 60% using Crashlytics and optimizing code.",
-      "Implemented loyalty points feature in a food delivery app, enabling users to select from multiple programs for discounts, leveraging GraphQL for efficient data handling."
+      "Working on a Compose Multiplatform POS enabling store owners to manage inventory via barcode scanning and view multi-store sales reports.",
+      "Delivered a cross-platform project-management app with a custom Canvas signature capture (path smoothing & gesture support) to enable quick, secure task approvals.",
+      "Implemented an offline-first delivery workflow using Room and WorkManager to queue transactions locally and sync reliably when the device reconnects.",
+      "Developed ROA & ADJ modules and integrated Expinet gateway; used Crashlytics and targeted fixes to reduce crashes significantly.",
+      "Implemented loyalty points feature in a food-delivery app, supporting multiple programs and efficient data handling via GraphQL."
     ]
   },
   {
     title: "Software Engineer L1",
     company: "Crest Infosystems PVT. LTD",
     duration: "Dec-2023 to June-2024",
-    skills: ["Android Development", "Kotlin", "XML", "Jetpack compose", "MVVM", "MVP", "Clean architecture", "Advanced design patterns", "Dagger & Hilt", "Room database"],
+    skills: ["Android Development", "Kotlin", "XML", "Jetpack Compose", "MVVM", "Clean Architecture", "Dagger & Hilt", "Room"],
     responsibilities: [
-      "Enhanced a warehouse management apps by implementing barcode scan-enabled pagination and search functionalities, improved operational efficiency.",
-      "Mastered advanced Android technologies including Jetpack Compose, Coroutines, architectural patterns and Dagger-Hilt.",
-      "Worked with Work manager, Alarm scheduler, Push notifications and storage APIs in Android."
+      "Improved a warehouse management app with barcode-scan enabled search and pagination, increasing operational efficiency.",
+      "Applied Jetpack Compose, Coroutines and advanced architecture patterns to deliver scalable and maintainable features.",
+      "Worked with WorkManager, AlarmManager, push notifications and Android storage APIs."
     ]
   },
   {
@@ -46,11 +47,11 @@ export const experiences: Experience[] = [
     title: "Android Development Intern",
     company: "Infinity Brains",
     duration: "May-2022 to Aug-2022",
-    skills: ["Android Development", "Kotlin", "XML", "Model-view-viewmodel (MVVM)", "Retrofit", "REST APIs"],
+    skills: ["Android Development", "Kotlin", "MVVM", "Retrofit", "SQLite", "REST APIs"],
     responsibilities: [
-      "Leveraged team-work management Android app by updating dashboard, navbar, team monitoring and edit profile section.",
-      "Featured the capability of uploading an Excel sheet of work details, saving approximately 6 minutes of manual form filling.",
-      "Reduced loading time by 2 seconds through local storage of Indian city names, eliminating the need for repeated data fetches."
+      "Improved team-management Android app by updating dashboard, navigation and profile sections to boost usability.",
+      "Implemented Excel-sheet upload for bulk work entry, saving ~6 minutes per use and reducing manual entry errors.",
+      "Reduced loading time by ~2 seconds by caching Indian city names locally, removing repeated network requests."
     ]
   }
 ];
