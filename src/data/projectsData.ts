@@ -25,15 +25,15 @@ export const featuredProjects: Project[] = [
     }
   },
   {
-    title: "Pro Scanner - PDF Scanner App",
+    title: "PDF Scanner App",
     description: [
       "Developed a robust document scanning app using Android Jetpack Compose for an intuitive, modern UI, implemented MVVM architecture for clean, maintainable code and seamless state management.",
       "Integrated ML Kit for advanced features such as automatic document detection and smart cropping, improving accuracy and efficiency in document scanning.",
       "Implemented efficient file management features, including custom categories and dynamic file organization, using Coroutines for smooth, non-blocking operations."
     ],
     techStack: ["Android", "Kotlin", "Jetpack compose", "Coroutines", "MVVM", "ML-kit", "Material UI", "File Management"],
-    image: "pro-scanner_icon.png",
-    links: { playstore: "https://play.google.com/store/apps/details?id=com.elite.scanner", github: "https://github.com/jemish-169/Pro-Scanner" }
+    image: "pdf-scanner_icon.png",
+    links: { playstore: "https://play.google.com/store/apps/details?id=com.elite.scanner", github: "https://github.com/jemish-169/PDF-Scanner" }
   },
   {
     title: "Bhagavad Gita: Hindi & English",
