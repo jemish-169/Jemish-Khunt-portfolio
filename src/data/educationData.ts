@@ -3,8 +3,8 @@ export interface Education {
   institution: string;
   degree: string;
   duration: string;
-  grade?: string;
-  coursework?: string[];
+  grade: string;
+  coursework: string[];
 }
 
 export const educations: Education[] = [
@@ -40,6 +40,7 @@ export const educations: Education[] = [
     institution: "Shree Vidhya Arambh School, Rajkot",
     degree: "Secondary School",
     duration: "Jul 2016 - May 2018",
-    grade: "98.20"
+    grade: "98.20",
+    coursework: []
   }
 ];
