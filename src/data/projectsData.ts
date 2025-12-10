@@ -28,8 +28,8 @@ export const featuredProjects: Project[] = [
     title: "PDF Scanner App",
     description: [
       "Developed a robust document scanning app using Android Jetpack Compose for an intuitive, modern UI, implemented MVVM architecture for clean, maintainable code and seamless state management.",
-      "Integrated ML Kit for advanced features such as automatic document detection and smart cropping, improving accuracy and efficiency in document scanning.",
-      "Implemented efficient file management features, including custom categories and dynamic file organization, using Coroutines for smooth, non-blocking operations."
+      "Integrated ML Kit for advanced features such as automatic document detection and smart cropping.",
+      "Implemented file management features, including custom categories and dynamic file organization. Developed a lightweight PDF viewer library."
     ],
     techStack: ["Android", "Kotlin", "Jetpack compose", "Coroutines", "MVVM", "ML-kit", "Material UI", "File Management"],
     image: "pdf-scanner_icon.png",
