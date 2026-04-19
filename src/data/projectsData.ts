@@ -13,9 +13,9 @@ export const featuredProjects: Project[] = [
   {
     title: "Agri Price: Daily Crop Prices Gujarat",
     description: [
-      "Created Agri-Price app to show daily crop prices (min/max) in all Gujarat markets. Used Kotlin and Jetpack Compose to build easy-to-use UI with offline-first support using Room DB.",
-      "Used Supabase to store clean crop and market data. Wrote Python scripts to fetch and update public data daily. Old data (over 100 days) and unused crops are removed automatically.",
-      "Implemented notifications for today's updated Markets. For better User experience managed Themes and Data refresh rules for offline-first architecture."
+      "Created Agri-Price app using Kotlin and Jetpack Compose to show daily crop prices, allowing users to view trend graphs (min/max price vs days) of selected crops in selected markets.",
+      "Used Supabase for clean data storage and wrote Python scripts to fetch daily public data, automatically removing unused crops and records older than 100 days.",
+      "Implemented notifications for updated markets. Managed dynamic themes, Data refresh rules, and Room DB for a seamless offline-first architecture."
     ],
     techStack: ["Android", "Kotlin", "Supabase", "Jetpack Compose", "Room", "Koin", "Notification", "Navigation3", "Offline-first", "Material UI"],
     image: "agri-price_icon.png",
