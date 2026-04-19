@@ -14,9 +14,9 @@ export const experiences: Experience[] = [
     duration: "June-2024 to present",
     skills: ["Android Development", "Kotlin", "Jetpack Compose", "Compose Multiplatform", "Java", "XML", "Room", "WorkManager", "Retrofit", "GraphQL", "CI/CD", "POS Systems", "Barcode scanner"],
     responsibilities: [
-      "Optimized POS checkout flow with reduced click paths, parallel payment-state APIs, and local persistence-based recovery, improving transaction completion speed by 20%.",
-      "Refactored customer selection into a reusable dialog with inline add-and-assign flow, reducing navigation friction and improving order handling efficiency.",
       "Built nightly CI/CD automation for 3 product flavors across 3 repositories, eliminating manual APK distribution and saving 30 minutes daily across QA and release workflows.",
+      "Optimized POS checkout flow with reduced click paths, parallel payment-state APIs, and local persistence-based recovery, improving transaction completion speed by 20%.",
+      "Implemented an internal architecture to dynamically load fragments in dialogs, bottom sheets, or fullscreen views based on device configuration, enhancing UI adaptability and modularity.",
       "Worked on a Compose Multiplatform POS enabling store owners to manage inventory via barcode scanning and view multi-store sales reports.",
       "Delivered a cross-platform project-management app with a custom Canvas signature capture (path smoothing & gesture support) to enable quick, secure task approvals.",
       "Implemented an offline-first delivery workflow using Room and WorkManager to queue transactions locally and sync reliably when the device reconnects.",
