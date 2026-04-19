@@ -11,7 +11,7 @@ export const experiences: Experience[] = [
   {
     title: "Software Engineer L2",
     company: "Crest Infosystems PVT. LTD",
-    duration: "June-2024 to present",
+    duration: "June-2024 to Apr-2026",
     skills: ["Android Development", "Kotlin", "Jetpack Compose", "Compose Multiplatform", "Java", "XML", "Room", "WorkManager", "Retrofit", "GraphQL", "CI/CD", "POS Systems", "Barcode scanner"],
     responsibilities: [
       "Built nightly CI/CD automation for 3 product flavors across 3 repositories, eliminating manual APK distribution and saving 30 minutes daily across QA and release workflows.",
